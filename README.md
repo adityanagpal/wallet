@@ -23,6 +23,7 @@ Change Wallet Status - POST http://127.0.0.1:8000/wallet/wallet_status  body = {
 
 get Transactions - http://127.0.0.1:8000/wallet/transactions?wallet_id=1&user_id=1
 Create Transactions - POST http://127.0.0.1:8000/wallet/transactions body = {"user":1, "wallet":1, "credit":1000}
+body can be - {"user":1, "wallet":1, "debit":500}
 
 get Balance - http://127.0.0.1:8000/wallet/wallet_balance?wallet_id=1&user_id=1
 
