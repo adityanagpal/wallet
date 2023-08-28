@@ -6,7 +6,7 @@ then install all requirements by
 
 pip install -r requirements.txt
 
-run - python manage.py makemigrations
+run - python manage.py makemigrations wallet_users
 python manage.py migrate
 
 then runserver by - python manage.py runserver
